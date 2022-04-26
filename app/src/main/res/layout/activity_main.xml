@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/start_started_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_500"
+        android:text="Start Started Service"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/stop_started_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Stop Started Service"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+    <Button
+        android:id="@+id/print_time_stamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Print Timestamp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/time_stamp_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Time Stamp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/start_bound_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Start Bound Service"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/stop_bound_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Stop Bound Service"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
+
+
